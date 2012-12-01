@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     update_only_changed_attributes (0.0.1)
-      rails (~> 3.2.4)
+      rails (~> 3.2.0)
 
 GEM
   remote: http://rubygems.org/
