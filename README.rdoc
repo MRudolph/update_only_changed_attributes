@@ -1,3 +1,13 @@
 = UpdateOnlyChangedAttributes
 
-This project rocks and uses MIT-LICENSE.
+This gem adds the update_only_changed_attributes method to ActiveRecord::Base.
+
+This will pass a new hash to update_attributes, including just the data which is not present in the current object.
+By this, it prevents MassAssignErrors, if already present data should be written to an object.
+
+== Nesting
+
+In the current stage, nesting isn't handled at all.
+
+== License
+This project uses MIT-LICENSE.
