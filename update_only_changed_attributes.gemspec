@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = UpdateOnlyChangedAttributes::VERSION
   s.authors     = ["Maximilian Rudolph"]
   s.email       = []
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/MRudolph/update_only_changed_attributes"
   s.summary     = "Extends ActiveRecord::Base by a method for just updating changed attributes."
   s.description = s.summary
 
