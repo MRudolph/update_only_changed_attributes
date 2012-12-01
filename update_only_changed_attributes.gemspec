@@ -7,11 +7,11 @@ require "update_only_changed_attributes/version"
 Gem::Specification.new do |s|
   s.name        = "update_only_changed_attributes"
   s.version     = UpdateOnlyChangedAttributes::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Maximilian Rudolph"]
+  s.email       = []
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UpdateOnlyChangedAttributes."
-  s.description = "TODO: Description of UpdateOnlyChangedAttributes."
+  s.summary     = "Extends ActiveRecord::Base by a method for just updating changed attributes."
+  s.description = s.summary
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
